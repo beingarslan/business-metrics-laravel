@@ -14,8 +14,8 @@ class NetProfitMargin extends Component
     public function getNetProfitMargin()
     {
         $this->validate([
-            'net_income' => 'required|numeric|min:1',
-            'total_revenue' => 'required|numeric|min:0',
+            'net_income' => 'required|numeric|min:0',
+            'total_revenue' => 'required|numeric|min:1',
         ]);
 
         $this->netProfitMargin = ($this->net_income / $this->total_revenue) * 100;

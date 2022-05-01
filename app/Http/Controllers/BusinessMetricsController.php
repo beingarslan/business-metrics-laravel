@@ -15,4 +15,9 @@ class BusinessMetricsController extends Controller
     {
         return view('business-metrics.net-profit-margin');
     }
+
+    public function operatingProfitMargin()
+    {
+        return view('business-metrics.operating-profit-margin');
+    }
 }

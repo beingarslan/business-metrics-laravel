@@ -27,7 +27,7 @@
                             <small>Net profit margin = (Net income / Total revenue) x 100</small>
                         </a>
 
-                        <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                        <a href="/business-metrics/operating-profit-margin" class="list-group-item list-group-item-action" aria-current="true">
                             <div class="d-flex w-100 justify-content-between">
                                 <h5 class="mb-1">Operating Profit Margin</h5>
                                 <!-- <small>3 days ago</small> -->

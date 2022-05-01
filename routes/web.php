@@ -55,6 +55,16 @@ Route::group(
                         Route::get('/', [BusinessMetricsController::class, 'netProfitMargin']);
                     }
                 );
+
+                Route::group(
+                    [
+                        'prefix' => 'operating-profit-margin',
+                        'as' => 'operating-profit-margin.',
+                    ],
+                    function(){
+                        Route::get('/', [BusinessMetricsController::class, 'operatingProfitMargin']);
+                    }
+                );
             }
         );
     }
