@@ -9,13 +9,13 @@
 
                 <div class="card-body">
                     <div class="list-group">
-                        <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                        <a href="/business-metrics/gross-profit-margin" class="list-group-item list-group-item-action" aria-current="true">
                             <div class="d-flex w-100 justify-content-between">
                                 <h5 class="mb-1">Gross Profit Margin</h5>
                                 <!-- <small>3 days ago</small> -->
                             </div>
                             <p class="mb-1">Unlike net profit margin, gross profit margin shows a company’s profits before subtracting interest, taxes and operating expenses like rent, utilities and wages. A healthy gross profit margin plays an important factor in whether a business is able to cover all of its expenses.</p>
-                            <small>Gross profit margin = (Revenue – Cost of goods or services sold) / Revenue</small>
+                            <small>Gross profit margin = (Revenue – Cost of goods or services sold) / Revenue x 100</small>
                         </a>
 
                         <a href="#" class="list-group-item list-group-item-action" aria-current="true">

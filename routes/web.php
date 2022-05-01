@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Controllers\BusinessMetricsController;
+use App\Http\Controllers\HomeController;
+use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -19,4 +22,32 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::group(
+    [
+        'middleware' => 'auth',
+    ],
+    function () {
+        Route::get('/home', [HomeController::class, 'index'])->name('home');
+
+        Route::group(
+            [
+                'prefix' => 'business-metrics',
+                'as' => 'business-metrics.',
+            ],
+            function () {
+
+                Route::group(
+                    [
+                        'prefix' => 'gross-profit-margin',
+                        'as' => 'gross-profit-margin.',
+                    ],
+                    function(){
+                        Route::get('/', [BusinessMetricsController::class, 'grossProfitMargin']);
+                        Route::post('/', [BusinessMetricsController::class, 'grossProfitMarginStore'])->name('store');
+
+                    }
+                );
+            }
+        );
+    }
+);
