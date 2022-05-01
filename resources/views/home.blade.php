@@ -18,7 +18,7 @@
                             <small>Gross profit margin = (Revenue – Cost of goods or services sold) / Revenue x 100</small>
                         </a>
 
-                        <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                        <a href="/business-metrics/net-profit-margin" class="list-group-item list-group-item-action" aria-current="true">
                             <div class="d-flex w-100 justify-content-between">
                                 <h5 class="mb-1">Net Profit Margin</h5>
                                 <!-- <small>3 days ago</small> -->

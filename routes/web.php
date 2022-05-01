@@ -43,8 +43,16 @@ Route::group(
                     ],
                     function(){
                         Route::get('/', [BusinessMetricsController::class, 'grossProfitMargin']);
-                        Route::post('/', [BusinessMetricsController::class, 'grossProfitMarginStore'])->name('store');
+                    }
+                );
 
+                Route::group(
+                    [
+                        'prefix' => 'net-profit-margin',
+                        'as' => 'net-profit-margin.',
+                    ],
+                    function(){
+                        Route::get('/', [BusinessMetricsController::class, 'netProfitMargin']);
                     }
                 );
             }
