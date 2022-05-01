@@ -20,4 +20,9 @@ class BusinessMetricsController extends Controller
     {
         return view('business-metrics.operating-profit-margin');
     }
+
+    public function returnToEquity()
+    {
+        return view('business-metrics.return-to-equity');
+    }
 }

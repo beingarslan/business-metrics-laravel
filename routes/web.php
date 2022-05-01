@@ -65,6 +65,16 @@ Route::group(
                         Route::get('/', [BusinessMetricsController::class, 'operatingProfitMargin']);
                     }
                 );
+
+                Route::group(
+                    [
+                        'prefix' => 'return-to-equity',
+                        'as' => 'return-to-equity.',
+                    ],
+                    function(){
+                        Route::get('/', [BusinessMetricsController::class, 'returnToEquity']);
+                    }
+                );
             }
         );
     }

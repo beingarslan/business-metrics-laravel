@@ -36,7 +36,7 @@
                             <small>Operating profit margin = gross profit - operating expenses/revenue X 100</small>
                         </a>
 
-                        <a href="#" class="list-group-item list-group-item-action" aria-current="true">
+                        <a href="/business-metrics/return-to-equity" class="list-group-item list-group-item-action" aria-current="true">
                             <div class="d-flex w-100 justify-content-between">
                                 <h5 class="mb-1">Return on Equity</h5>
                                 <!-- <small>3 days ago</small> -->
