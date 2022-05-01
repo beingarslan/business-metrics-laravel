@@ -28,6 +28,9 @@
                     @enderror
                 </div>
                 <button type="submit" class="btn btn-secondary">Calculate</button>
+                <div wire:loading class="text-warning">
+                    Calculating...
+                </div>
             </form>
         </div>
     </div>
