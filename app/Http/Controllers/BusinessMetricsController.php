@@ -25,4 +25,24 @@ class BusinessMetricsController extends Controller
     {
         return view('business-metrics.return-to-equity');
     }
+
+    public function breakEvenPoint()
+    {
+        return view('business-metrics.break-even-point');
+    }
+
+    public function debtToEquityRatio()
+    {
+        return view('business-metrics.debt-to-equity-ratio');
+    }
+
+    public function inventoryShrinkage()
+    {
+        return view('business-metrics.inventory-shrinkage');
+    }
+
+    public function returnOnInvestment()
+    {
+        return view('business-metrics.return-on-investment');
+    }
 }

@@ -75,6 +75,46 @@ Route::group(
                         Route::get('/', [BusinessMetricsController::class, 'returnToEquity']);
                     }
                 );
+               
+                Route::group(
+                    [
+                        'prefix' => 'break-even-point',
+                        'as' => 'break-even-point.',
+                    ],
+                    function(){
+                        Route::get('/', [BusinessMetricsController::class, 'breakEvenPoint']);
+                    }
+                );
+               
+                Route::group(
+                    [
+                        'prefix' => 'debt-to-equity-ratio',
+                        'as' => 'debt-to-equity-ratio.',
+                    ],
+                    function(){
+                        Route::get('/', [BusinessMetricsController::class, 'debtToEquityRatio']);
+                    }
+                );
+               
+                Route::group(
+                    [
+                        'prefix' => 'inventory-shrinkage',
+                        'as' => 'inventory-shrinkage.',
+                    ],
+                    function(){
+                        Route::get('/', [BusinessMetricsController::class, 'inventoryShrinkage']);
+                    }
+                );
+               
+                Route::group(
+                    [
+                        'prefix' => 'return-on-investment',
+                        'as' => 'return-on-investment.',
+                    ],
+                    function(){
+                        Route::get('/', [BusinessMetricsController::class, 'returnOnInvestment']);
+                    }
+                );
             }
         );
     }
