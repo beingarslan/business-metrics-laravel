@@ -9,13 +9,16 @@
 
                 <div class="card-body">
                     <div class="list-group">
-                        <a href="/business-metrics/gross-profit-margin" class="list-group-item list-group-item-action" aria-current="true">
+                        <a href="/business-metrics/break-even-point" class="list-group-item list-group-item-action" aria-current="true">
                             <div class="d-flex w-100 justify-content-between">
-                                <h5 class="mb-1">Gross Profit Margin</h5>
+                                <h5 class="mb-1">Break-even Point</h5>
                                 <!-- <small>3 days ago</small> -->
                             </div>
-                            <p class="mb-1">Unlike net profit margin, gross profit margin shows a company’s profits before subtracting interest, taxes and operating expenses like rent, utilities and wages. A healthy gross profit margin plays an important factor in whether a business is able to cover all of its expenses.</p>
-                            <small>Gross profit margin = (Revenue – Cost of goods or services sold) / Revenue x 100</small>
+                            <p class="mb-1">It’s a point at which a company’s expenses are exactly covered by its sales.
+                                In other words, it’s a production level where the total expenses are exactly the same as the total revenue for a product. <br>
+                                Calculating the break-even point is a crucial financial analysis tool for business owners. A small business owner can use this formula to find out how many units of products they need to sell to cover production costs.
+                            </p>
+                            <small>Break-even Point = Fixed Costs / (Sales Price Per Unit – Variable Costs Per Unit)</small>
                         </a>
 
                         <a href="/business-metrics/net-profit-margin" class="list-group-item list-group-item-action" aria-current="true">
@@ -78,16 +81,13 @@
                             <small>Inventory Shrinkage = [(Recorded Inventory – Actual Inventory) / Recorded Inventory] X 100</small>
                         </a>
 
-                        <a href="/business-metrics/break-even-point" class="list-group-item list-group-item-action" aria-current="true">
+                        <a href="/business-metrics/gross-profit-margin" class="list-group-item list-group-item-action" aria-current="true">
                             <div class="d-flex w-100 justify-content-between">
-                                <h5 class="mb-1">Break-even Point</h5>
+                                <h5 class="mb-1">Gross Profit Margin</h5>
                                 <!-- <small>3 days ago</small> -->
                             </div>
-                            <p class="mb-1">It’s a point at which a company’s expenses are exactly covered by its sales.
-                                In other words, it’s a production level where the total expenses are exactly the same as the total revenue for a product. <br>
-                                Calculating the break-even point is a crucial financial analysis tool for business owners. A small business owner can use this formula to find out how many units of products they need to sell to cover production costs.
-                            </p>
-                            <small>Break-even Point = Fixed Costs / (Sales Price Per Unit – Variable Costs Per Unit)</small>
+                            <p class="mb-1">Unlike net profit margin, gross profit margin shows a company’s profits before subtracting interest, taxes and operating expenses like rent, utilities and wages. A healthy gross profit margin plays an important factor in whether a business is able to cover all of its expenses.</p>
+                            <small>Gross profit margin = (Revenue – Cost of goods or services sold) / Revenue x 100</small>
                         </a>
 
                     </div>
